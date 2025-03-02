@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #000;
+  padding: 0px 20px;
+  margin: 10px;
+}
+.logo img {
+  height: 70px;
+  width: 70px;
+}
+.navItems > ul {
+  display: flex;
+  align-items: center;
+}
+.navItems > ul > li {
+  font-size: 18px;
+  list-style: none;
+  padding: 10px;
+  margin: 10px;
+}
+.navItems > ul > li > a {
+  text-decoration: none;
+}
+
+.card {
+  width: 230px;
+  height: 350px;
+  background: #f0f0f0;
+  margin: 10px;
+  padding: 8px;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.card > img {
+  height: 150px;
+  width: 100%;
+}
+
+.cardData {
+  line-height: 25px;
+}
+.search {
+  padding: 10px;
+}
+.card:hover {
+  border: 1px solid #000;
+  cursor: pointer;
+}
+.res-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.filter {
+  display: flex;
+}
+
+.filter-btn {
+  margin: 10px;
+  cursor: pointer;
+}
+
+.shimmer-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.shimmer-card {
+  width: 230px;
+  height: 350px;
+  background: #f0f0f0;
+  margin: 10px;
+}
+.login-btn {
+  padding: 3px 8px;
+  cursor: pointer;
+}
+
+/* SwiggyCard */
+.swiggyCard {
+  height: 300px;
+  width: 280px;
+  background: #f0f0f0;
+  border-radius: 20px;
+  cursor: pointer;
+
+
+}
+.swiggyCard img {
+  width: 100%;
+  height: 181px;
+  border-radius: 20px;
+  display: flex;
+  object-fit: cover;
+  padding: 5px;
+}
+
+/* SiggyData */
+
+.swiggyData {
+  width: 95%;
+  margin:30px auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.swiggyCard:hover{
+  border: 1px solid #f0f0f0;
+  border-radius: 20px;
+}
+.restData{
+  line-height: 22px;
+  padding: 8px;
+
+}
+.restData p{
+  color: gray;
+  line-height: 20px;
+}
+
+/* Swiggy Item */
+
+.dataItem{
+  width: 80%;
+  margin: auto;
+  padding: 20px 0px;
+}
+.category{
+  padding: 20px 0px;
+  line-height: 30px;
+}
+
+.infoCard{
+  width: 80%;
+  margin: 50px auto;
+}
+.productImg{
+ display: flex;
+ justify-content: center;
+}
+.productImg > img{
+  width: 250px;
+  height: 250px;
+}
+.cardInfoData{
+  padding: 20px 50px;
+  line-height: 30px;
+}
